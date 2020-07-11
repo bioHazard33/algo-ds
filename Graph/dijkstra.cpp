@@ -44,7 +44,7 @@ int main(){
 
     priority_queue< pair<int,int> , vector<pair<int,int> > , compare > pq;
     
-    pq.push(make_pair(0,source));
+    pq.push(make_pair(source,0));
     dist[source]=0;
 
     while(!pq.empty()){
